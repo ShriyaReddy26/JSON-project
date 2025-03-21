@@ -5,6 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        padding: 20px;
+    }
+    h1 {
+        color: #333;
+    }
+    #posts {
+        margin-top: 20px;
+        padding: 10px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+    }
+    .post {
+        background: white;
+        padding: 15px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .post h2 {
+        margin: 0;
+        font-size: 18px;
+        color: #007bff;
+    }
+    .post p {
+        margin: 5px 0 0;
+        color: #555;
+    }
+    #loadMoreBtn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    #loadMoreBtn:hover {
+        background-color: #0056b3;
+    }
+</style>
 <body>
     <h1>Fetch posts example</h1>
     <p>click the button below to load posts:</p>
